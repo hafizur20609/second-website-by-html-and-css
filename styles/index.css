@@ -173,6 +173,81 @@ main{
     box-shadow: 2px 2px 8px yellow;
 }
 
+/* section-container three */
 
+.section_container_three{
+ margin-top: 100px;
+
+}
+.section_container_three >h2{
+    text-align: center;
+    font-size: 35px;
+}
+.section_container_three .button_box{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.resume_container{
+    display: flex;
+    justify-content: space-between;
+}
+.resume_child{
+    padding: 15px 20px;
+}
+.resume_child .resume_education{
+     padding: 15px 20px;
+}
+.resume_child .resume_education h3{
+     color:#474747;
+}
+.resume_child .resume_education h2{
+     color:#474747;
+}
+.resume_child .resume_education p{
+     color:#757575;
+}
+
+.resume_child hr{
+     margin-left: 20px;
+}
+
+/* footer */
+ 
+
+footer{
+    max-width: 1180px ;
+    margin: 0 auto 100px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #FFF8F3;
+    
+}
+
+.footer_child_one{
+    max-width: 50%;
+}
+
+.footer_child_one .footer_child_icons{
+
+    display: flex;
+    gap:40px;
+    margin-top: 30px;
+}
+
+.footer_child_one p{
+    color: #757575;
+}
+.footer_child_two input,textarea{
+   padding: 20px 20px ;
+   width: 100%;
+   margin-top: 20px;
+   border-radius: 5px;
+   border: none;
+}
+
+.footer_child_two .submit{
+    width: 150px;
+}
 
 
