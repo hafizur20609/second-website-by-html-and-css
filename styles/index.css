@@ -96,6 +96,12 @@ nav ul li a {
 .banner_child .Download{
     margin-right: 30px;
 }
+.banner_child .Download:hover{
+    color: #FD6E0A;
+    background-color: white;
+    border: 1px solid #FD6E0A;
+}
+
 .banner_child .contact{
      
      background-color: white;
@@ -103,6 +109,15 @@ nav ul li a {
      border: 1px solid #FD6E0A;
      text-transform: capitalize;
 }
+.banner_child .contact:hover{
+     
+    background-color:#FD6E0A;
+    color: white;
+    border: 1px solid #FD6E0A;
+    text-transform: capitalize;
+}
+
+
 
 
 /* main area */
@@ -187,6 +202,12 @@ main{
     text-align: center;
     margin-top: 20px;
 }
+.section_container_three .button_box button:hover{
+    color: #FD6E0A;
+    background-color: white;
+    border: 1px solid #FD6E0A;
+    box-sizing: border-box;
+}
 
 .resume_container{
     display: flex;
@@ -216,12 +237,16 @@ main{
  
 
 footer{
-    max-width: 1180px ;
-    margin: 0 auto 100px;
-    display: flex;
-    justify-content: space-evenly;
+ 
     background-color: #FFF8F3;
     
+}
+.footer_container{
+    max-width: 1180px ;
+    margin: 0 auto 100px;
+    
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .footer_child_one{
@@ -238,6 +263,10 @@ footer{
 .footer_child_one p{
     color: #757575;
 }
+.footer_child_two{
+
+    
+}
 .footer_child_two input,textarea{
    padding: 20px 20px ;
    width: 100%;
@@ -248,6 +277,26 @@ footer{
 
 .footer_child_two .submit{
     width: 150px;
+    margin-right: 50px;
+}
+.footer_child_two .submit:hover{
+    color: #FD6E0A;
+    background-color: white;
+    border: 1px solid #FD6E0A;
+}
+
+.footer_child_two .reset{
+    width: 150px;
+}
+.footer_child_two .reset{
+    color: #FD6E0A;
+    background-color: white;
+    border: 1px solid #FD6E0A;
+}
+.footer_child_two .reset:hover{
+    color: white;
+    background-color: #FD6E0A;
+    
 }
 
 
