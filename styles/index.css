@@ -244,13 +244,13 @@ footer{
 .footer_container{
     max-width: 1180px ;
     margin: 0 auto 100px;
-    
     display: flex;
     justify-content: space-evenly;
+    gap:100px;
 }
 
 .footer_child_one{
-    max-width: 50%;
+    max-width:50%;
 }
 
 .footer_child_one .footer_child_icons{
